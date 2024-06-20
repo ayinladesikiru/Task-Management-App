@@ -6,8 +6,6 @@ from .views import TaskViewSet, homepage, signup, logout_view
 router = DefaultRouter()
 router.register('tasks', TaskViewSet, basename='tasks')
 
-print(router.urls)
-
 urlpatterns = [
     path('', include(router.urls)),
     path('home/', homepage, name='home'),
