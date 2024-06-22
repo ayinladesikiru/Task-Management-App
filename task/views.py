@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from rest_framework.decorators import action
 from rest_framework.filters import SearchFilter
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
@@ -17,6 +18,7 @@ from .serializers import TaskSerializer
 class TaskViewSet(ModelViewSet):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
+    permission_classes = [IsAuthenticated]
     http_method_names = ["patch", "post", "get", "delete", "head", "options"]
     filter_backends = [SearchFilter]
     search_fields = ['title']

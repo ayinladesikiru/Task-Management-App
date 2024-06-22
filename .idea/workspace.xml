@@ -7,9 +7,7 @@
     <list default="true" id="9906c1b6-5ce7-45ff-8b99-220886985c95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasky/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasky/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,7 @@
       <workItem from="1718832371030" duration="19669000" />
       <workItem from="1718899755345" duration="4647000" />
       <workItem from="1718904638315" duration="2616000" />
-      <workItem from="1718908360522" duration="984000" />
+      <workItem from="1718908360522" duration="3510000" />
     </task>
     <servers />
   </component>
